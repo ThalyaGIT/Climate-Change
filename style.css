@@ -1,0 +1,87 @@
+/* Apply padding to the left and right of the entire page */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 20px;
+    padding-left: 200px;   /* Adds 20px padding on the left */
+    padding-right: 200px;  /* Adds 20px padding on the right */
+}
+
+/* Main header styling */
+h1 {
+    scroll-margin: 5rem;
+    font-size: 2.25rem;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+}
+
+/* Responsive font-size adjustment for h1 */
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+/* Subsection header styling */
+h2 {
+    margin-top: 7rem;
+    scroll-margin: 5rem;
+    border-bottom: 1px solid;
+    padding-bottom: 0.5rem;
+    font-size: 1.875rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    transition: color 0.3s ease;
+}
+
+/* Sub-subsection header styling */
+h3 {
+    margin-top: 2rem;
+    scroll-margin: 5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+/* Paragraph styling */
+p {
+    line-height: 1.75rem;
+}
+
+/* Add margin-top for all paragraphs except the first */
+p + p {
+    margin-top: 1.5rem;
+}
+
+/* Unordered list styling */
+ul {
+    margin: 1.5rem 0;
+    margin-left: 1.5rem;
+    list-style-type: disc;
+}
+
+/* Add margin-top for each list item */
+ul li + li {
+    margin-top: 0.5rem;
+}
+
+/* Link styling */
+a {
+    font-weight: 500;
+    color: #007bff;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+/* Blockquote styling */
+blockquote {
+    margin-top: 1.5rem;
+    border-left: 2px solid #d1d5db;
+    padding-left: 1.5rem;
+    font-style: italic;
+}
+
+/* Caption styling */
+.caption {
+    font-size: 0.875rem;
+    color: #4b5563;
+}
